@@ -2,10 +2,10 @@
  * LeetCode Problem: Rotate List
  * Difficulty: Medium
  * Language: cpp
- * Problem URL: https://leetcode.com/problems/rotate-list/description/
+ * Problem URL: https://leetcode.com/problems/rotate-list/
  * 
  * Auto-committed by LeetUp
- * Date: 2025-07-13T12:04:07.921Z
+ * Date: 2025-07-13T12:15:31.976Z
  */
 
 /**
@@ -26,7 +26,7 @@ public:
 };
 /*
  * End of solution for: Rotate List
- * Committed at: 2025-07-13T12:04:07.921Z
+ * Committed at: 2025-07-13T12:15:31.976Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
