@@ -5,7 +5,7 @@
  * Problem URL: https://leetcode.com/problems/rotate-list/submissions/1702623853/
  * 
  * Auto-committed by LeetUp
- * Date: 2025-07-18T16:25:42.348Z
+ * Date: 2025-07-18T16:26:26.054Z
  */
 
 # Definition for singly-linked list.
@@ -42,7 +42,7 @@ class Solution(object):
         return new_head
 /*
  * End of solution for: Rotate List
- * Committed at: 2025-07-18T16:25:42.348Z
+ * Committed at: 2025-07-18T16:26:26.054Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
