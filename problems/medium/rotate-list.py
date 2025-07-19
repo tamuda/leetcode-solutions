@@ -2,10 +2,10 @@
  * LeetCode Problem: Rotate List
  * Difficulty: Medium
  * Language: python
- * Problem URL: https://leetcode.com/problems/rotate-list/submissions/1704009010/
+ * Problem URL: https://leetcode.com/problems/rotate-list/submissions/1704025387/
  * 
  * Auto-committed by LeetUp
- * Date: 2025-07-19T19:58:49.065Z
+ * Date: 2025-07-19T20:22:36.914Z
  */
 
 # Definition for singly-linked list.
@@ -41,7 +41,7 @@ class Solution(object):
 
 /*
  * End of solution for: Rotate List
- * Committed at: 2025-07-19T19:58:49.065Z
+ * Committed at: 2025-07-19T20:22:36.914Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
