@@ -2,10 +2,10 @@
  * LeetCode Problem: Rotate List
  * Difficulty: Medium
  * Language: python
- * Problem URL: https://leetcode.com/problems/rotate-list/submissions/1703983212/
+ * Problem URL: https://leetcode.com/problems/rotate-list/submissions/1704009010/
  * 
  * Auto-committed by LeetUp
- * Date: 2025-07-19T19:25:11.442Z
+ * Date: 2025-07-19T19:58:49.065Z
  */
 
 # Definition for singly-linked list.
@@ -15,10 +15,10 @@
 #         self.next = next
 class Solution(object):
     def rotateRight(self, head, k):
-         if not head or not head.next or k == 0:
+        if not head or not head.next or k == 0:
             return head
         length = 1
-        tail = head
+        tail=head
         while tail.next:
             tail = tail.next
             length += 1
@@ -37,9 +37,11 @@ class Solution(object):
         new_head = new_tail.next
         new_tail.next = None
 
+        return new_head
+
 /*
  * End of solution for: Rotate List
- * Committed at: 2025-07-19T19:25:11.442Z
+ * Committed at: 2025-07-19T19:58:49.065Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
