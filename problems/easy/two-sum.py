@@ -2,31 +2,25 @@
  * LeetCode Problem: Two Sum
  * Difficulty: Easy
  * Language: python
- * Problem URL: https://leetcode.com/problems/two-sum/submissions/1712164705/
+ * Problem URL: https://leetcode.com/problems/two-sum/submissions/1715144057/
  * 
  * Auto-committed by LeetUp
- * Date: 2025-07-26T13:30:04.222Z
+ * Date: 2025-07-28T23:52:41.623Z
  */
 
 class Solution(object):
     def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        myset = {}
-        for index, num in enumerate(nums):
-            comp = target - num
-            if comp in myset:
-                return [myset[comp], index]
-            else:
-                myset[num] = index
-        return None
-        
+        num_to_index = {}  # Dictionary to store number -> index
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in num_to_index:
+                return [num_to_index[complement], i]
+            num_to_index[num] = i
+
+
 /*
  * End of solution for: Two Sum
- * Committed at: 2025-07-26T13:30:04.222Z
+ * Committed at: 2025-07-28T23:52:41.623Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
