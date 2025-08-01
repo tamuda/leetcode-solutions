@@ -2,10 +2,10 @@
  * LeetCode Problem: Two Sum
  * Difficulty: Easy
  * Language: python
- * Problem URL: https://leetcode.com/problems/two-sum/submissions/1718891875/
+ * Problem URL: https://leetcode.com/problems/two-sum/submissions/1719593304/
  * 
  * Auto-committed by LeetUp
- * Date: 2025-07-31T23:00:46.792Z
+ * Date: 2025-08-01T14:19:35.001Z
  */
 
 class Solution(object):
@@ -20,7 +20,7 @@ class Solution(object):
 
 /*
  * End of solution for: Two Sum
- * Committed at: 2025-07-31T23:00:46.792Z
+ * Committed at: 2025-08-01T14:19:35.001Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
