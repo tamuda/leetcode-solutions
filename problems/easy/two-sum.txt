@@ -2,31 +2,33 @@
  * LeetCode Problem: Two Sum
  * Difficulty: Easy
  * Language: python3
- * Problem URL: https://leetcode.com/problems/two-sum/submissions/1783715834/?__cf_chl_rt_tk=DGfDtAm.cZ1eztPTz.YiDeZwjBY79u2z6OVl5U9ASfI-1758927074-1.0.1.1-eWFI6ceF7YiMuWuoDzDhysu_IAtNaKRrbiCSFJrNFoU
+ * Problem URL: https://leetcode.com/problems/two-sum/submissions/1788406738/?__cf_chl_rt_tk=DGfDtAm.cZ1eztPTz.YiDeZwjBY79u2z6OVl5U9ASfI-1758927074-1.0.1.1-eWFI6ceF7YiMuWuoDzDhysu_IAtNaKRrbiCSFJrNFoU
  * 
  * Auto-committed by LeetUp
- * Date: 2025-09-26T23:01:40.596Z
+ * Date: 2025-10-01T16:31:38.929Z
  */
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # hashmap
-        # iterate the nums
-        # each loop calc the comp 
-        # then if comp, i will return the indices
+        # hashmap 
+        # then i will i iterate the nums
+        #calc comp in each loop
         
         myset = {}
         for idx, num in enumerate(nums):
             comp = target - num
             if comp in myset:
-                return [myset[comp], idx]     
+                return [myset[comp], idx]
             else:
                 myset[num] = idx
-        return []   
+        
+        return None
+        
+        
         
 /*
  * End of solution for: Two Sum
- * Committed at: 2025-09-26T23:01:40.596Z
+ * Committed at: 2025-10-01T16:31:38.929Z
  * 
  * This solution was automatically committed by LeetUp.
  * Visit: https://leetup.app
